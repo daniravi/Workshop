@@ -35,10 +35,13 @@
             color: #666;
         }
         .person img {
-            max-width: 100px;
+            width: 150px; /* Increased image size */
+            height: 150px;
             float: left;
             margin-right: 20px;
             border-radius: 5px;
+            border: 2px solid black; /* Added black border */
+            object-fit: cover; /* Ensure images fill the container */
         }
         .person a {
             color: #007bff;
@@ -53,6 +56,9 @@
         .contact-info {
             margin-bottom: 10px;
         }
+        .person p {
+            text-align: justify; /* Justify the text */
+        }
     </style>
 </head>
 <body>
@@ -62,7 +68,7 @@
 
         <div class="person">
             <div class="clearfix">
-                <img src="Slide1.png" alt="Sebastiano Battiato">
+                <img src="Slide1.png" alt="Sebastiano Battiato" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Sebastiano Battiato</h2>
                 <h3>Full Professor</h3>
                 <div class="contact-info">
@@ -74,9 +80,9 @@
             </div>
         </div>
 
-        <div class="person">
+         <div class="person">
             <div class="clearfix">
-                <img src="" alt="Massimo Villari">
+                <img src="Slide2.png" alt="Massimo Villari" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Massimo Villari</h2>
                 <h3>Full Professor</h3>
                 <div class="contact-info">
@@ -91,7 +97,7 @@
 
         <div class="person">
             <div class="clearfix">
-                <img src="" alt="Daniele Ravì">
+                <img src="Slide3.png" alt="Daniele Ravì" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Daniele Ravì</h2>
                 <h3>Associate Professor</h3>
                 <div class="contact-info">
@@ -108,7 +114,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Alessandro Ortis">
+                <img src="Slide4.png" alt="Alessandro Ortis" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Alessandro Ortis</h2>
                 <h3>Assistant Professor (RTDb)</h3>
                 <div class="contact-info">
@@ -122,7 +128,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Francesco Rundo">
+                <img src="Slide5.png" alt="Francesco Rundo" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Francesco Rundo</h2>
                 <h3>Assistant Professor (RTDb)</h3>
                 <div class="contact-info">
@@ -136,7 +142,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Georgia Fargetta">
+                <img src="Slide6.png" alt="Georgia Fargetta" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Georgia Fargetta</h2>
                 <h3>Research Fellow (RTDa)</h3>
                 <div class="contact-info">
@@ -150,7 +156,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Massimo Orazio Spata">
+                <img src="Slide7.png" alt="Massimo Orazio Spata" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Massimo Orazio Spata</h2>
                 <h3>Research Fellow (RTDa)</h3>
                 <div class="contact-info">
@@ -164,7 +170,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Francesco Guarnera">
+                <img src="Slide7.png" alt="Francesco Guarnera" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Francesco Guarnera</h2>
                 <h3>Research Fellow (RTDa)</h3>
                 <div class="contact-info">
@@ -178,7 +184,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Luca Guarnera">
+                <img src="Slide8.png" alt="Luca Guarnera" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Luca Guarnera</h2>
                 <h3>Research Fellow (RTDa)</h3>
                 <div class="contact-info">
@@ -192,7 +198,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Lorenzo Carnevale">
+                <img src="Slide8.png" alt="Lorenzo Carnevale" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Lorenzo Carnevale</h2>
                 <h3>Assistant Professor (RTDa)</h3>
                 <div class="contact-info">
@@ -209,7 +215,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Annamaria Ficara">
+                <img src="Slide9.png" alt="Annamaria Ficara" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Annamaria Ficara</h2>
                 <h3>Assistant Professor (RTDa)</h3>
                 <div class="contact-info">
@@ -223,7 +229,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Armando Ruggeri">
+                <img src="Slide10.png" alt="Armando Ruggeri" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Armando Ruggeri</h2>
                 <h3>Assistant Professor (RTDa)</h3>
                 <div class="contact-info">
@@ -237,7 +243,7 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Maria Fazio">
+                <img src="Slide11.png" alt="Maria Fazio" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Maria Fazio</h2>
                 <h3>Associate Professor</h3>
                 <div class="contact-info">
@@ -252,12 +258,9 @@
 
          <div class="person">
             <div class="clearfix">
-                <img src="" alt="Antonino Galletta">
+                <img src="Slide12.png" alt="Antonino Galletta" onerror="this.onerror=null; this.src='image_placeholder.png';">
                 <h2>Antonino Galletta</h2>
                 <h3>Assistant Professor (RTDa)</h3>
                 <div class="contact-info">
                     <p><strong>Email:</strong> <a href="mailto:antonino.galletta@unime.it">antonino.galletta@unime.it</a></p>
-                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angalletta/?locale=en_US" target="_blank">LinkedIn Profile</a></p>
-                </div>
-                <p><strong>Research Field:</strong> Cloud computing, IoT, Security, smart cities, eHealth</p>
-                <p><strong>Brief Biography:</strong> Antonino Galletta is an assistant professor at the University of Messina. In 2020 he received a PhD from the University of Reggio Calabria (Italy). He received his B.Sc. and M.Sc. (with honors) in Computer Engineering from the University of Messina. Before starting the PhD, he worked as a senior software developer and a team leader at the University of Messina from 2013 to 2016. He is the PI of two Italian Research Projects of National Interest (PRIN) funded by the Ministry of University and Research, and the PI of “InstradaME” an Italian project funded by the Ministry of Interior. His main research activities focus on the security of Cloud/Edge/IoT technologies for Smart cities and eHealth solutions including Big Data management and Blockchain. Due to his contribution to the research, he has been selected among the 200 top young researchers in Mathematics and Computer Science to participate in the prestigious “Heidelberg Laureate Forum” held in Heidelberg in September 2019. He was the guest editor of several SI on Q1 journals. Currently, he is an Associate Editor of several journals, including Elsevier SusCom, and Elsevier Chip; one of the members of the Technical Committee of the Elsevier Computer Communication Journal and a
+                    <
